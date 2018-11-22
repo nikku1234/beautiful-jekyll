@@ -1,7 +1,8 @@
 ---
 layout: post
-title: First post!
+title: Image Prediction App (iOS)
 image: /img/hello_world.jpeg
 ---
 
-This is my first post, how exciting!
+An app which takes real time photos to predict the subject in the image with Google’s
+Inceptionv3 Model using Machine Learning.
