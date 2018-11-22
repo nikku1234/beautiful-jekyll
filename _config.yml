@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Nikhil's Website
+#title: Nikhil's Website
 
 # Short description of your site
 description: A virtual proof that name is awesome!
@@ -36,7 +36,7 @@ avatar: "/img/logo_2_512x512.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
- title-img: "/img/logo_2_512x512.jpg"
+ title-img: /img/logo_2_512x512.jpg
 
 # --- Background colour/image options --- #
 
@@ -64,7 +64,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Nikhil Ramesh
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
