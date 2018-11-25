@@ -24,6 +24,7 @@ description: Nik's Blog
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Profile Map: "profilemap"
   #Resources:
     #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
    # - Learn markdown: "http://www.markdowntutorial.com/"
