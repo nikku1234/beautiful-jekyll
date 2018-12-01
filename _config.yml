@@ -17,14 +17,14 @@ baseurl: ""
 title: Nik's Website
 
 # Short description of your site
-description: Nik's Blog
+description: Welcome
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Profile Map: "profilemap"
+  #Profile Map: "profilemap"
   #Resources:
     #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
    # - Learn markdown: "http://www.markdowntutorial.com/"
