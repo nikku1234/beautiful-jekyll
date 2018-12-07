@@ -4,7 +4,7 @@ title: Template Protection Using Multimodal Biometrics
 gh-repo: nikku1234/Template-Protection-Using-Multimodal-Biometrics
 gh-badge: [star, fork, follow]
 tags: [template]
-image: /img/template/logo1.png
+image: /img/template/logo.png
 ---
 
 A simple cancellable biometric filtering method is implemented to increase the security of the
