@@ -4,7 +4,7 @@ title: Optical Character Recognizer
 gh-repo: nikku1234/Optical-Character-Recogonizer
 gh-badge: [star, fork, follow]
 tags: [ocr]
-image: /img/ocr/ocrlogo1.png
+image: /img/ocr/ocrlogo2.png
 
 ---
 # Optical-Character-Recogonizer
