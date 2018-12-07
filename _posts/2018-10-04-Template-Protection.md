@@ -29,7 +29,6 @@ Measurement and statistical analysis of people's unique physical and behavioral 
 ![secondimage](/img/template/Picture2.png)
 Image is reversed so that filters can work. It would be apt if the foreground has brighter intensity value. Hence the Image is reversed, so that the resulting intensity value is computed as  (255 - original intensity value).To improve the contrast , histogram equalization is carried out.Histogram is a plot of pixel count against the intensity value. Contrast  corresponds to the amonut of difference between various features in an image. Here, the difference between fingerprint and the background should be susceptibly large, so that further extraction of features would be effective.Histogram equalization distribute the intensity values uniformly across the intensity range which improves contrast as shown below.
 ![picture3](/img/template/Picture3.png)
-
 Source: http://www.sci.utah.edu/~acoste/uou/Image/project1/Arthur_COSTE_Project_1_report.html)
 
 ## Step 3: Binarization (Segmenting foreground from background)
