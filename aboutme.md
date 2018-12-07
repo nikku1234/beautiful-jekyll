@@ -12,6 +12,6 @@ What else do you need?
 
 This guy is awesome ;)
 
-He is happy to collaborate. Drop in a mail, if you think he can collaborate on your projects.
+I am happy to collaborate. Drop in a mail, if you think we can collaborate on projects.
 
 
