@@ -3,7 +3,7 @@ layout: post
 title: Optical Character Recognizer
 gh-repo: nikku1234/Optical-Character-Recogonizer
 gh-badge: [star, fork, follow]
-tags: [template]
+tags: [ocr]
 image: /img/ocr/ocrlogo.png
 
 ---
