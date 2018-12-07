@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Image Prediction App (iOS)
+title: WhatFlower App (iOS)
+gh-repo: nikku1234/nikku1234/iOS-Project/tree/master/What%20Flower
+gh-badge: [star, fork, follow]
+tags: [iOS]
+
 image: /img/hello_world.jpeg
 ---
 
