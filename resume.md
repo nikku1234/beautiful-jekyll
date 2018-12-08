@@ -1,1 +1,1 @@
-you can [get the PDF]({{ site.url }}/resume/mydoc.pdf) directly.
+You can view the resume by clicking[here]({{ site.url }}/resume/mydoc.pdf).
