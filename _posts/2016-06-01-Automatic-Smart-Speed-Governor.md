@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Automatic Smart Speed Governor
-gh-repo:nikku1234/Automatic-Speed-Controller
+title: Automatic-Speed-Controller
+subtitle: Selected as best project at a National Level Project Expo held at Coimbatore
+gh-repo: nikku1234/Automatic-Speed-Controller
 gh-badge: [star, fork, follow]
-tags: [automatic]
+tags: [controller]
 ---
 Proposed a cruise control system that adjusts the speed of the vehicle based on the information
 obtained by the sensors deployed on the road to resist the speed of the vehicle.
