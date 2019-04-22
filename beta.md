@@ -3,52 +3,68 @@ layout: page
 title: Beta Section
 
 ---
-You can view the note by clicking [here]({{ site.url }}/nikku1234/Random-Studies-Repo/Tensorflow notes/image_segmentation_conditional_random_fields.ipynb).
-# Studies-Repo
-These repo contains all the notebooks and files, which I am working on and also the notes on which I am learning on.
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
 
-## Understanding Architectures 
-[AlexNet !](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Understanding%20the%20architectures/AlexNet)
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
 
-[Papers Related to Faster R-CNN](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Understanding%20the%20architectures/Faster%20R-CNN/Papers)
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 
-[Inception!](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Understanding%20the%20architectures/Inception)
+    <div class="post-entry-container">
+      {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img src="{{ post.image }}">
+        </a>
+      </div>
+      {% endif %}
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
+      </div>
+    </div>
 
-[LeNet!](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Understanding%20the%20architectures/LeNet%205)
+    {% if post.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags:
+      {% if site.link-tags %}
+      {% for tag in post.tags %}
+      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+      {% endfor %}
+      {% else %}
+        {{ post.tags | join: ", " }}
+      {% endif %}
+    </div>
+    {% endif %}
 
-[Papers Related to Mammography](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Understanding%20the%20architectures/Papers%20Related%20to%20Mammography)
+   </article>
+  {% endfor %}
+</div>
 
-[Unet](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Understanding%20the%20architectures/Unet)
-
-[Vgg Net](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Understanding%20the%20architectures/VGGNET)
-
-[ZF Net](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Understanding%20the%20architectures/ZF%20Net)
-
-
-## Experiments related to Mammogram Images
-
-[Document About Bi-RADS for Mammography](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Mammogram%20/Bi-RADS%20for%20Mammography)
-
-[Image-Segmentation-using-K-Means for Mammogram](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Mammogram%20/Image-Segmentation-using-K-Means-%20Mammogram)
-
-[Unet- Code](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Mammogram%20/Working%20Unet%20Code%20Alone)
-
-[Comparison of segmentation and superpixel algorithms](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Mammogram%20/Comparison%20of%20segmentation%20and%20superpixel%20algorithms.ipynb)
-
-[Image Enhance using Sci-Kit Image](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Mammogram%20/Sci-Kit%20Image%20Processing%20Techniques.ipynb)
-
-[Image Enhance using PIL](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Mammogram%20/Image%20Enhance%20in%20PIL.ipynb)
-
-[Morphological Operations in OpenCV](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Mammogram%20/morphological%20operations%20in%20opencv.ipynb)
-
-## Tensorflow
-[Tensorflow from scratch](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Tensorflow%20/Tensorflow%20from%20scratch%20)
-
-[Tensorflow Notes](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Tensorflow%20/Tensorflow%20notes)
-
-[Tensorflow-Codes from Different Textbooks](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Tensorflow%20/Tensorflow-from%20textbooks)
-
-  * [Deep-Learning-with-TensorFlow](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Tensorflow%20/Tensorflow-from%20textbooks/Deep-Learning-with-TensorFlow)
-  * [Getting-Started-with-TensorFlow](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Tensorflow%20/Tensorflow-from%20textbooks/Getting-Started-with-TensorFlow)
-
-[Understanding Tensorflow_Google Colab Notes](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Tensorflow%20/Understanding%20Tensorflow_google)
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
