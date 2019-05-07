@@ -25,7 +25,7 @@ description: Welcome
 navbar-links:
   Resume: "resume"
   About Me: "aboutme"
-  Learning: "beta"
+  Learning: "learning"
   #Profile Map: "profilemap"
   #Resources:
     #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
