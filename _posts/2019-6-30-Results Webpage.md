@@ -14,5 +14,8 @@ To show the semantic segmentation of the images
 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[logo]: https://github.com/nikku1234/web_showcase/blob/gh-pages/logo.png
 # https://nikku1234.github.io/web_showcase/
+
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
