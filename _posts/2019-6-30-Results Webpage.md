@@ -12,10 +12,10 @@ To show the semantic segmentation of the images
 
 ## This Webpage is to show the results of deep learning models, generated mask on mammogram images. 
 
-![alt text][logo]
+![https://nikku1234.github.io/web_showcase/][logo][Link to the page ](https://nikku1234.github.io/web_showcase/)
 
 [logo]: https://github.com/nikku1234/web_showcase/blob/gh-pages/logo.png
-# https://nikku1234.github.io/web_showcase/
+# 
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
 
