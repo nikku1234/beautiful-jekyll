@@ -1,3 +1,12 @@
+---
+layout: post
+title:  Results Webpage
+subtitle: To showcase the segmentation results on different models on the mammogram images
+gh-repo: https://github.com/nikku1234/web_showcase
+gh-badge: [star, fork, follow]
+tags: [segmenatation_results]
+---
+
 # web_showcase
 To show the semantic segmentation of the images
 
