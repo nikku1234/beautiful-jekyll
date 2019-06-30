@@ -7,9 +7,12 @@ gh-badge: [star, fork, follow]
 tags: [segmenatation_results]
 ---
 
-# web_showcase
+# Web_showcase
 To show the semantic segmentation of the images
 
 ## This Webpage is to show the results of deep learning models, generated mask on mammogram images. 
 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 # https://nikku1234.github.io/web_showcase/
