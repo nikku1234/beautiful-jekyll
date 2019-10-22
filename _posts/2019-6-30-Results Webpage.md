@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Results Webpage
-subtitle: To showcase the segmentation results on different models on the mammogram images
+title: The results from the deep learning model [Beta]
+subtitle: To showcase the segmentation results by different models on the mammogram images.
 gh-repo: https://github.com/nikku1234/web_showcase
 gh-badge: [star, fork, follow]
 tags: [segmenatation_results]
