@@ -3,7 +3,7 @@ layout: post
 title: Getting started with Opencv with C++
 gh-repo: nikku1234/Computer-Vision--SLAM-
 gh-badge: [star, fork, follow]
-tags: [template]
+tags: [opencv]
 image: /img/opencv.png
 ---
 
