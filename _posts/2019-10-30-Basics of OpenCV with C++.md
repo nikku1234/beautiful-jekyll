@@ -5,6 +5,7 @@ subtitle: The basic codes needed to begin with OpenCv with C++
 gh-repo: https://github.com/nikku1234/Computer-Vision--SLAM-
 gh-badge: [star, fork, follow]
 tags: [opencv]
+image: /img/opencv.png
 ---
 # Basics of OpenCv with C++
 
@@ -19,7 +20,7 @@ This article is about getting started with OpenCv with C++
 
 ##  [Changing brightness of an image](https://github.com/nikku1234/Computer-Vision--SLAM-/blob/master/Xcode%20Project/Working%20with%20Opencv/Working%20with%20Opencv/change_brightness.cpp)
 
-## 	[Working_with_web_cam.cpp](https://github.com/nikku1234/Computer-Vision--SLAM-/blob/master/Xcode%20Project/Working%20with%20Opencv/Working%20with%20Opencv/working_with_web_cam.cpp "working_with_web_cam.cpp")
+## 	[Working with WebCam](https://github.com/nikku1234/Computer-Vision--SLAM-/blob/master/Xcode%20Project/Working%20with%20Opencv/Working%20with%20Opencv/working_with_web_cam.cpp "working_with_web_cam.cpp")
 
 ## 	[Histogram Equalization](https://github.com/nikku1234/Computer-Vision--SLAM-/blob/master/Xcode%20Project/Working%20with%20Opencv/Working%20with%20Opencv/Histogram%20Equalization.cpp "Histogram Equalization.cpp") 
 
