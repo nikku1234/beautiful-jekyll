@@ -1,4 +1,12 @@
-﻿# Basics of OpenCv with C++
+---
+layout: post
+title: Basics of OpenCV with C++ [Beta]
+subtitle: The basic codes needed to begin with OpenCv with C++
+gh-repo: https://github.com/nikku1234/Computer-Vision--SLAM-
+gh-badge: [star, fork, follow]
+tags: [opencv]
+---
+# Basics of OpenCv with C++
 
 This article is about getting started with OpenCv with C++
 
