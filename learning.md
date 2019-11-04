@@ -53,6 +53,17 @@ published: true
 
 [Understanding Tensorflow_Google Colab Notes](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Tensorflow%20/Understanding%20Tensorflow_google)
 
+## PyTorch
+
+### FCN
+ * [FCN](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Pytorch/FCN/FCN.py)
+ * [FCN8](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Pytorch/FCN/FCN8.py)
+ * [FCN16](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Pytorch/FCN/FCN16.py)
+ * [FCN32](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Pytorch/FCN/Fcn32.py)
+
+### UNET
+ [Unet Implementation using PyTorch](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Pytorch/Unet/unet.py)
+ 
 ## Deep Learning(CS7015) [Youtube Link](https://youtu.be/4TC5s_xNKSs) Notes
  [Lecture 1](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Deep%20Learning(CS7015)/Lecture%201.pdf)
  
