@@ -51,6 +51,10 @@ published: true
 
 [Convolutional Neural Networks]({{ site.url }}/Certification/DeepLearning.Ai/Course%204/https___www.coursera.org_api_certificate.pdf)
 
+[Sequence Models]({{ site.url }}/Certification/DeepLearning.Ai/Course%205/https___www.coursera.org_api_certificate.pdf)
+
+[Deep Learning Specialization]({{ site.url }}/Certification/DeepLearning.Ai/final.pdf)
+
 [Fundamentals of Deep Learning for Computer Vision]({{ site.url }}/Certification/Nvidia/DLI%20C-FX-01%20Certificate%20%7C%20Deep%20Learning%20Institute.pdf)
 
 [Data Science Orientation]({{ site.url }}/Certification/IBM%20/Course%201/certificate.pdf)
