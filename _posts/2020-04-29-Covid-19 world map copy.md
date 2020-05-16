@@ -13,5 +13,3 @@ This article is about COVID-19 live map
 
 
 ## [Click on the link to view the map](https://nikku1234-corona.netlify.app)
-
--

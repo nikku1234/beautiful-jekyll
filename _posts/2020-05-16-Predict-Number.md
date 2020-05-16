@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: Predict the number
 subtitle: USING MNIST dataset
