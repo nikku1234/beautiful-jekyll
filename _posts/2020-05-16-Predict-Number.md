@@ -12,4 +12,4 @@ image: /img/opencv.png
 This article is MNIST dataset
 
 
-## [Click on the link to view the page](../predict_number/tfjs.html)
+## [Click on the link to view the page](https://github.com/nikku1234/predict-numbers/)
