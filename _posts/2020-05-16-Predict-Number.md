@@ -7,7 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [opencv]
 image: /img/ocr/outputocr1.png
 ---
-# Live Map
+# Predict the number
 
 This article is MNIST dataset
 
