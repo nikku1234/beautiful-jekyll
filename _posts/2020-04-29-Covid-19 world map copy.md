@@ -5,11 +5,12 @@ subtitle: To see the current COVID-19 cases all over the world
 gh-repo: https://github.com/nikku1234/coronavirus-map-dashboard
 gh-badge: [star, fork, follow]
 tags: [opencv]
-image: /img/covid.png
+image: /img/covid.jpg
 ---
 # Live Map
 
-This article is about COVID-19 live map
+This is an app where it shows the real-time world map of COVID-19.
+![App Image](/img/covid.jpg)
 
 
 ## [Click on the link to view the map](https://nikku1234-corona.netlify.app)
