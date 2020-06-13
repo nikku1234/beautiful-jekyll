@@ -3,7 +3,7 @@ layout: post
 title: Template Protection Using Multimodal Biometrics
 gh-repo: nikku1234/Template-Protection-Using-Multimodal-Biometrics
 gh-badge: [star, fork, follow]
-tags: [template]
+tags: [template,Protection,multimodal,matlab,iris,fingerprint]
 image: /img/template/logo.png
 ---
 
@@ -45,21 +45,21 @@ Adaptive Thresholding refers to using a different threshold for every local wind
 
 ![picture5](/img/template/picture5.png)
 
-## Step 4: Orientation Estimation to detect the ROI 
+## Step 4: Orientation Estimation to detect the ROI
 Finds the horizontal edges , Vertical edges using Sobel Operator
 
 ![](/img/template/Screenshot 2018-12-01 at 11.51.07 PM.png)
 
 Algorithm:
-Compute 
+Compute
 	V= convolve Image with vertical gradient
 	H=convolve image with horizontal gradient
 	G1 = V*H
 	G2= (V-H) * (V+H)
 	G3 = (V*V) + (H*H)
-	
+
 ### Divide the image into 16*16 blocks and compute the background_Certainity
-	
+
 Background_Certainity =  SUM(G1(i,j)2) + SUM(G2(i,j)2) / 16*16* SUM(G3(i,j)2) 	
 
 If the background_Certainity is found to be less than 0.5 , then the block corresponds to background
@@ -71,7 +71,7 @@ Intermediate Image Generated after background certainty is as follows
 ![](/img/template/Screenshot 2018-12-01 at 11.52.29 PM.png)
 
 ## Step 5: Image Thinning and Minutiae Extraction
-Finally , Image is thinned to obtain the skeleton (thick lines are reduced to thinner lines). Ridge endings and branches are to be identified for which 3*3 mask is run over the thinned image 
+Finally , Image is thinned to obtain the skeleton (thick lines are reduced to thinner lines). Ridge endings and branches are to be identified for which 3*3 mask is run over the thinned image
 
 ![picture8](/img/template/picture8.png)
 
@@ -90,5 +90,3 @@ Dimension reduction using PCA Algorithm
 
 Fusion of reduced features
 ![](/img/template/image.png)
-
-

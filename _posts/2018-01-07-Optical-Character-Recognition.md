@@ -3,7 +3,7 @@ layout: post
 title: Optical Character Recognizer
 gh-repo: nikku1234/Optical-Character-Recogonizer
 gh-badge: [star, fork, follow]
-tags: [ocr]
+tags: [ocr,character,RECOGNITION,ann,]
 image: /img/ocr/ocrlogo2.png
 
 ---
@@ -53,8 +53,8 @@ The dataset is imported. The matrix of each image in the dataset are stored in a
 
 # BLOCK DIAGRAM
 
-This module matches the handwritten alphabets present in a dataset. This application takes a string as input and segments the string into separate alphabets. Matrix is formed for each alphabet. A feed forward neural network is created using neurolab. 
-The feed forward neural network is trained with a part of the dataset and is tested with the alphabets present in the input. 
+This module matches the handwritten alphabets present in a dataset. This application takes a string as input and segments the string into separate alphabets. Matrix is formed for each alphabet. A feed forward neural network is created using neurolab.
+The feed forward neural network is trained with a part of the dataset and is tested with the alphabets present in the input.
 The neural network predicts the alphabets that matches the alphabets in the input string.
 
 ![](/img/ocr/module2block.png)
@@ -62,4 +62,3 @@ The neural network predicts the alphabets that matches the alphabets in the inpu
 # OUTPUT
 
 ![](/img/ocr/ocr2out.png)
-

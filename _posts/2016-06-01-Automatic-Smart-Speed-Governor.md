@@ -4,7 +4,7 @@ title: Automatic-Speed-Controller
 subtitle: Selected as best project at a National Level Project Expo held at Coimbatore
 gh-repo: nikku1234/Automatic-Speed-Controller
 gh-badge: [star, fork, follow]
-tags: [controller]
+tags: [controller,Automatic,controller,arduino,microcontroller,national-level]
 ---
 
 Proposed a cruise control system that adjusts the speed of the vehicle based on the information
@@ -51,5 +51,3 @@ The project “Automatic Speed Controller “will definitely help to reduce the 
 ![](/img/Speed/Picture3.png)
 ### CIRCUIT DIAGRAM:
 ![](/img/Speed/Picture4.png)
-
-

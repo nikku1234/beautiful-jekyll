@@ -4,7 +4,7 @@ title: COVID-19 live map
 subtitle: To see the current COVID-19 cases all over the world
 gh-repo: https://github.com/nikku1234/coronavirus-map-dashboard
 gh-badge: [star, fork, follow]
-tags: [opencv]
+tags: [covid-19,live-map,world-map]
 image: /img/covid.jpg
 ---
 # Live Map

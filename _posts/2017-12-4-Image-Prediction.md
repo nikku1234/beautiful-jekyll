@@ -3,7 +3,7 @@ layout: post
 title: WhatFlower App (iOS)
 gh-repo: nikku1234/nikku1234/iOS-Project/tree/master/What%20Flower
 gh-badge: [star, fork, follow]
-tags: [iOS]
+tags: [iOS,apple,ios-developer,google,dataset,Inceptionv3]
 
 image: /img/hello_world.jpeg
 ---
