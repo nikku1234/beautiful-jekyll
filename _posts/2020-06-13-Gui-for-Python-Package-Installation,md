@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Predict the number
-subtitle: USING MNIST dataset
+title: GUI for Python Packages
+subtitle:
 gh-repo: https://github.com/nikku1234/Gui-for-Python-Package-Installation
 gh-badge: [star, fork, follow]
-tags: [opencv]
-image: /img/ocr/outputocr1.png
+tags: [pip],[python],[env],[tensorflow],[pytorch]
+image: /img/image_gui.png
 ---
 # Predict the number
 
-This article is MNIST dataset
+We have all be there.For python based GUI for installing different packages, avoiding all the hassle going to the terminal and typing 'pip install' or 'sudo apt get'
 
 
 ## [Click on the link to view the page](https://github.com/nikku1234/predict-numbers/)
