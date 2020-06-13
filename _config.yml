@@ -78,9 +78,9 @@ author:
 social-network-links:
   rss: false
   email: "nikhilramesh1234@gmail.com"
-  #facebook: daattali
+  facebook: nikhil.ramesh.itsme
   github: nikku1234
-  twitter: nikkhil1234
+  twitter: nikhil.ramesh.itsme
 #  reddit: yourname
 #  google-plus: +DeanAttali
   linkedin: nikhilramesh1234
@@ -98,7 +98,7 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: false
+  facebook: true
   google: true
   linkedin: true
 
