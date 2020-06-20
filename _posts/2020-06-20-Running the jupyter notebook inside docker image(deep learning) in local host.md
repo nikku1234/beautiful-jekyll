@@ -5,7 +5,7 @@ subtitle: Docker
 #gh-repo:
 #gh-badge: [star, fork, follow]
 tags: [docker,jupyter,notebook,deep-learning]
-#image: /img/markdown/logo.png
+image: /img/logos/docker.png
 ---
 # Running the Jupyter notebook inside Docker Image(deep learning) in local host
 

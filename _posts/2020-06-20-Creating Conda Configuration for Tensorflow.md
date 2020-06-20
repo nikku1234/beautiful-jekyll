@@ -5,7 +5,7 @@ subtitle: Tensorflow
 #gh-repo:
 #gh-badge: [star, fork, follow]
 tags: [Conda,Configuration,Tensorflow]
-#image: /img/markdown/logo.png
+image: /img/logo/tensorflow.png
 ---
 # Creating Conda Configuration for Tensorflow
 
