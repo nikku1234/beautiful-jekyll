@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PyTorch GPU & CPU Configurations
-subtitle: Docker
+subtitle: PyTorch
 #gh-repo:
 #gh-badge: [star, fork, follow]
 tags: [pytorch,cpu,gpu,deep-learning,configurations]
