@@ -7,35 +7,35 @@ subtitle: Tensorflow
 tags: [Conda,Configuration,Tensorflow]
 #image: /img/markdown/logo.png
 ---
-#Creating Conda Configuration for Tensorflow
+# Creating Conda Configuration for Tensorflow
 
-###Making the conda variable to be called globally
+### Making the conda variable to be called globally
 
 export PATH=~/anaconda3/bin:$PATH
 
-###List the conda environments
+### List the conda environments
 conda env list
 
-###List the packages in the particular conda environment
+### List the packages in the particular conda environment
 conda list  
 
-###Create a new environment tensorflow with all necessary packages
+### Create a new environment tensorflow with all necessary packages
 
 conda create -n tensorflow python numpy scipy matplotlib spyder
 
-###Activate the environment
+### Activate the environment
 activate tensorflow
 
-###Install tensorflow and keras
+### Install tensorflow and keras
 
 pip install tensorflow
 
 pip install keras
 
-###Install Scikit-Image
+### Install Scikit-Image
 
 pip install scikit-image
 
-###Install OpenCV
+### Install OpenCV
 
 pip install opencv-python

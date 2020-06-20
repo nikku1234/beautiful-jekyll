@@ -1,10 +1,10 @@
-#Running the jupyter notebook inside docker image(deep learning) in local host
+# Running the jupyter notebook inside docker image(deep learning) in local host
 
-###Step 1: In putty , set up an ssh tunnel
+### Step 1: In putty , set up an ssh tunnel
 
 (Using the tunnels option under ssh in category section)
 
-###Step 2: Connect the docker container port (destination port) to the port (source port)
+### Step 2: Connect the docker container port (destination port) to the port (source port)
 
 Destination port : localhost:8888
 
@@ -12,7 +12,7 @@ Source port : 8000
 
 Add the port to the tunnel and click open
 
-###Step 3: In the ssh shell,
+### Step 3: In the ssh shell,
 
 List the containers
 
@@ -40,7 +40,7 @@ Parameters to be changed
 
 <nikhil:full> docker image with tag
 
-###Step 4: Run it in the browser
+### Step 4: Run it in the browser
 
 https://localhost:8888
 Kill the processes
