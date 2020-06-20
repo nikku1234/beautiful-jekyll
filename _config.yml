@@ -23,7 +23,7 @@ description: Hi!
 
 # List of links in the navigation bar
 navbar-links:
-  Resume: "resume"
+  Resume: "https://nikku1234.github.io/resume/mydoc.pdf"
   About Me: "aboutme"
   Learning: "learning"
   COVID-19: "map"
