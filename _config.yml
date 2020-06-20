@@ -27,7 +27,7 @@ navbar-links:
   About Me: "aboutme"
   Learning: "learning"
   COVID-19: "map"
-  Coding: "coding"
+  Coding: "https://github.com/nikku1234/Code-Practise"
   #Profile Map: "profilemap"
   #Resources:
     #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
