@@ -9,6 +9,10 @@ tags: [Conda,Configuration,Tensorflow]
 ---
 #Creating Conda Configuration for Tensorflow
 
+###Making the conda variable to be called globally
+
+export PATH=~/anaconda3/bin:$PATH
+
 ###List the conda environments
 conda env list
 
