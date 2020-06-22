@@ -9,7 +9,7 @@ image: /img/ocr/outputocr1.png
 ---
 # Predict the number
 
-This article is MNIST dataset
+The app to detect the hand written digit. Use the mouse to draw a digit and the model will predict the digit.
 
 
 ## [Click on the link to view the page](https://github.com/nikku1234/predict-numbers/)
