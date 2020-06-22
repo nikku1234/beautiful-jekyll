@@ -9,6 +9,7 @@ published: true
 
 We have all be there, where we need to write the markdown file, while we don't remember the syntax at all, and each time we need to save and file and run it to check whether its working or not. It's frustrating in life, where we don't have time to tinker with markdown syntax. So this application helps to preview the markdown as when we type the document, to understand what is happening to our markdown file.
 
+<figure><embed src="https://wakatime.com/share/@nikku1234/4ee56590-40fe-441a-a8e7-43a998191ce5.svg"></embed></figure>
 
 # [Predict the number](https://nikku1234.github.io/predict-numbers/)
 The app to detect the hand written digit. Use the mouse to draw a digit and the model will predict the digit.
