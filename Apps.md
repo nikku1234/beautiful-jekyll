@@ -6,7 +6,7 @@ published: true
 ---
 
 # My last 7 days of coding activity
-<figure><embed src="https://wakatime.com/share/@nikku1234/4ee56590-40fe-441a-a8e7-43a998191ce5.svg"></figure>
+<figure><embed src="https://wakatime.com/share/@nikku1234/30746196-2923-4fc7-84c4-2160958365c5.svg"></figure>
 
 # [Markdown Editor](https://nikku1234.github.io/Markdown-Editor/)
 
