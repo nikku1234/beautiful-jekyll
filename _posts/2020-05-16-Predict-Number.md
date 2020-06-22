@@ -12,4 +12,4 @@ image: /img/ocr/outputocr1.png
 The app to detect the hand written digit. Use the mouse to draw a digit and the model will predict the digit.
 
 
-## [Click on the link to view the page](https://github.com/nikku1234/predict-numbers/)
+## [Click on the link to view the page](https://nikku1234.github.io/predict-numbers/)
