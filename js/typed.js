@@ -403,23 +403,23 @@
 		strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
 		stringsElement: null,
 		// typing speed
-		typeSpeed: 50,
+		typeSpeed: 0,
 		// time before typing starts
 		startDelay: 0,
 		// backspacing speed
-		backSpeed: 1,
+		backSpeed: 0,
 		// shuffle the strings
-		shuffle: true,
+		shuffle: false,
 		// time before backspacing
-		backDelay: 30,
+		backDelay: 500,
 		// loop
 		loop: false,
 		// false = infinite
 		loopCount: false,
 		// show cursor
-		showCursor: false,
+		showCursor: true,
 		// character for cursor
-		cursorChar: "!",
+		cursorChar: "|",
 		// attribute to type (null == text)
 		attr: null,
 		// either html or text
