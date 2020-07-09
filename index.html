@@ -11,25 +11,30 @@ use-site-title: true
 <script>
   $(function(){
     $(".typed").typed({
+      // show cursor
+      showCursor: true,
+
+      cursorChar: ">",
+
       strings: ["Deep Learning.","Medical Images.","Computer Vision.","Research."],
+
       // typing speed
-  		typeSpeed: 20,
+  		typeSpeed: 50,
   		// time before typing starts
   		startDelay: 0,
   		// backspacing speed
-  		backSpeed: 20,
+  		backSpeed: 50,
   		// shuffle the strings
   		shuffle: true,
   		// time before backspacing
   		backDelay: 0,
   		// loop
-  		loop: false,
+  		loop: true,
   		// false = infinite
   		loopCount: false,
-  		// show cursor
-  		showCursor: true,
+
   		// character for cursor
-  		cursorChar: ">",
+
   		// attribute to type (null == text)
   		attr: null,
   		// either html or text
