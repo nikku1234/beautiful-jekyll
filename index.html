@@ -11,12 +11,10 @@ use-site-title: true
 <script>
   $(function(){
     $(".typed").typed({
-      // // show cursor
-      // showCursor: true,
-      //
-      // cursorChar: ">",
-
-      strings: ["Deep Learning.","Medical Images.","Computer Vision.","Research."]
+      strings: ["Deep Learning.","Medical Images.","Computer Vision.","Research."],
+      typeSpeed: 50,
+      loop: true,
+      backDelay: 500
 
     });
   });
