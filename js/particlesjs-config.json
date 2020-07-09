@@ -11,7 +11,7 @@
       "value": "#000000"
     },
     "shape": {
-      "type": "circle",
+      "type": "triangle",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -27,7 +27,7 @@
     },
     "opacity": {
       "value": 0.5,
-      "random": true,
+      "random": false,
       "anim": {
         "enable": false,
         "speed": 1,
