@@ -1,15 +1,13 @@
 ---
 layout: post
-title: Software Design Patterns
+title: An Introduction to Software Design Patterns
 subtitle: Design Patterns
 #gh-repo:
 #gh-badge: [star, fork, follow]
 tags: [DesignPatterns,java,software]
 image:
 ---
-# Software Design Patterns
-
-##### In this post, I will adding the basic information of Software Design Patterns.
+##### This post is an Introduction, I will adding the basic information of Software Design Patterns.
 
  ![Lets Learn to Design](/imgdesigndevunicorn.jpg)
 
@@ -35,7 +33,7 @@ Creational design patterns are related to how objects are constructed from class
 3. Singleton Pattern
 4. Abstract Factory Patterns
 
-#### Structural Patterns
+#### **Structural Patterns**
 
 Structural patterns are concerned with the composition of classes like, how the classes are made up or constructed. There are mainly seven types of Structural Patterns.
 
@@ -47,7 +45,7 @@ Structural patterns are concerned with the composition of classes like, how the 
 6. Flyweight Pattern
 7. Proxy Pattern
 
-#### Behavioural Patterns
+#### **Behavioural Patterns** 
 
 Behavioral design patterns dictate the interaction of classes and objects amongst each other and the delegation of responsibility. There are mainly eleven types of Behavioural Patterns.
 
