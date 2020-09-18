@@ -7,7 +7,8 @@ subtitle: Design Patterns
 tags: [DesignPatterns,java,software]
 image:
 ---
-##### This post is an Introduction post to the series of posts which I will writing for the different software design patterns.
+
+This post is an Introduction post to the series of posts which I will writing for the different software design patterns.
 
  ![Lets Learn to Design](../img/designdevunicorn.jpg)
 
