@@ -9,7 +9,7 @@ image:
 ---
 ##### This post is an Introduction, I will adding the basic information of Software Design Patterns.
 
- ![Lets Learn to Design](/imgdesigndevunicorn.jpg)
+ ![Lets Learn to Design](../img/designdevunicorn.jpg)
 
 The Software Design Patterns are mainly divided into three sections based on where it is used. These are the same categories used by **GoF** in their seminal work on design patterns.
 
@@ -45,7 +45,7 @@ Structural patterns are concerned with the composition of classes like, how the 
 6. Flyweight Pattern
 7. Proxy Pattern
 
-#### **Behavioural Patterns** 
+#### **Behavioural Patterns**
 
 Behavioral design patterns dictate the interaction of classes and objects amongst each other and the delegation of responsibility. There are mainly eleven types of Behavioural Patterns.
 
@@ -65,4 +65,4 @@ Behavioral design patterns dictate the interaction of classes and objects amongs
 
 Remember this!
 
-![GOF](/Users/nikhil/Documents/gof.png)
+![GOF](../img/gof.png)
