@@ -1,12 +1,17 @@
+---
+layout: post
+title: Software Design Patterns
+subtitle: Design Patterns
+#gh-repo:
+#gh-badge: [star, fork, follow]
+tags: [DesignPatterns,java,software]
+image:
+---
 # Software Design Patterns
 
 ##### In this post, I will adding the basic information of Software Design Patterns.
 
-
-
- ![Lets Learn to Design](../img/designdevunicorn.jpg)
-
-
+ ![Lets Learn to Design](/imgdesigndevunicorn.jpg)
 
 The Software Design Patterns are mainly divided into three sections based on where it is used. These are the same categories used by **GoF** in their seminal work on design patterns.
 
@@ -62,11 +67,4 @@ Behavioral design patterns dictate the interaction of classes and objects amongs
 
 Remember this!
 
-![GOF](../img/gof.png)
-
-
-
-
-
-
-
+![GOF](/Users/nikhil/Documents/gof.png)
