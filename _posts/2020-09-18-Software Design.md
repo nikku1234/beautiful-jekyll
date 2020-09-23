@@ -10,7 +10,7 @@ image:
 
 This post is an Introduction post to the series of posts which I will be writing for the different software design patterns.
 
- ![Lets Learn to Design](/Users/nikhil/Documents/GitHub/nikku1234.github.io/img/software_design/designdevunicorn.jpg)
+ ![Lets Learn to Design](../img/software_design/designdevunicorn.jpg)
 
 The Software Design Patterns are mainly divided into three sections based on where it is used. These are the same categories used by **GoF** in their seminal work on design patterns.
 
@@ -70,4 +70,4 @@ Behavioral design patterns dictate the interaction of classes and objects amongs
 
 Remember this!
 
-![GOF](/Users/nikhil/Documents/GitHub/nikku1234.github.io/img/software_design/gof.png)
+![GOF](../img/software_design/gof.png)
