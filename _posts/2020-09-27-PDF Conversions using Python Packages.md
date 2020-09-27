@@ -12,6 +12,18 @@ image:
 
 In this article, I will be recommending few python packages which can be used to convert the pdf to other useful formats. Since there are a lot of online websites which we can make use of, when it becomes to research, people won't be comfortable to upload their work to any random websites, due to privacy concerns.
 
+> PDF TO WORD
+>
+> PDF TO MARKDOWN
+>
+> PDF TO XML
+>
+> PDF TO HTML
+>
+> PDF TO IMAGE
+>
+> PDF TO CSV
+
 #### PDF To WORD
 
 ![image](../img/pdf/pdf-word.jpg)
