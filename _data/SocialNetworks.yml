@@ -98,5 +98,5 @@ yelp:
 
 google-scholar:
   name: "Google Scholar"
-  baseURL: "https://scholar.google.com/citations?user="
+  baseURL: "https://scholar.google.com/citations?user=-x7l3r4AAAAJ&hl=en"
   icon: "fa-google"
