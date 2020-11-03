@@ -5,13 +5,13 @@ subtitle: Linux
 #gh-repo:
 #gh-badge: [star, fork, follow]
 tags: [linux,newbie,basic commands]
-image:
+image: ../img/logos/linux-logo.png
 
 ---
 
 #### The Basic Commands for Linux
 
-`sudo` 
+`sudo`
 
 To give the administrators privilege  
 
@@ -25,7 +25,7 @@ For the name of the user logged in
 
 `sh `
 
-To get the shell 
+To get the shell
 
 `echo $0`
 
@@ -69,14 +69,8 @@ Gives the host ip address
 
 To create a directory
 
-`rm -r` 
+`rm -r`
 
 To remove one or more directories
 
 ![1](../img/linux_basic/4.png)
-
-
-
-
-
-
