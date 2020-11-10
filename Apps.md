@@ -3,6 +3,7 @@ layout: page
 title: Welcome
 subtitle: All the applications with previews
 published: true
+image: /img/logos/apps.png
 ---
 
 # My last 7 days of coding activity
