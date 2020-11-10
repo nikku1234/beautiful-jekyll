@@ -3,11 +3,12 @@ layout: page
 title: Welcome
 subtitle: All the things I am learning now
 published: true
+image: /img/logos/student.jpg
 ---
-## All the contents are present in this link 
+## All the contents are present in this link
 [Learning Repo](https://github.com/nikku1234/Random-Studies-Repo)
 
-## Understanding Architectures 
+## Understanding Architectures
 [AlexNet !](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Understanding%20the%20architectures/AlexNet)
 
 [Papers Related to Faster R-CNN](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Understanding%20the%20architectures/Faster%20R-CNN/Papers)
@@ -82,22 +83,22 @@ published: true
 
 ### UNET
  [Unet Implementation using PyTorch](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Pytorch/Unet/unet.py)
- 
+
 ## Deep Learning(CS7015) [Youtube Link](https://youtu.be/4TC5s_xNKSs) Notes
  [Lecture 1](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Deep%20Learning(CS7015)/Lecture%201.pdf)
- 
+
  [Lecture 2](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Deep%20Learning(CS7015)/lecture%202.pdf)
- 
+
  [Lecture 3](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Deep%20Learning(CS7015)/lecture%203.pdf)
- 
+
  [Lecture 4](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Deep%20Learning(CS7015)/lecture%204.pdf)
- 
+
  [Lecture 5](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Deep%20Learning(CS7015)/lecture%205.pdf)
- 
+
  [Lecture 6](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Deep%20Learning(CS7015)/lecture%206.pdf)
- 
+
  [Lecture 7](https://github.com/nikku1234/Random-Studies-Repo/blob/master/Deep%20Learning(CS7015)/lecture7.pdf)
- 
+
 ## Getting to know Deep Learning
 
 [This will be a series of the code, which will help beginners in Deep Learning to understand the coding in it.](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Deep%20Learning%20and%20Machine%20Learning/Getting-to-know-Deep-Learning)
@@ -107,5 +108,3 @@ published: true
 
 ## Docker Commands
 [Docker Files](https://github.com/nikku1234/Random-Studies-Repo/tree/master/Docker)
-
-

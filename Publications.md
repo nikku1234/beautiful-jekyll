@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-image: /img/rpa/rpa-logo.jpg
+image: /img/logos/publication.jpg
 ---
 ### List of Publications
 

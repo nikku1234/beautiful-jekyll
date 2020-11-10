@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-
+image: /img/logos/coder.jpg
 ---
 **Hi**, I am a *Software Engineer* and also an *Independent Deep Learning Engineer*. I am currently working on Medical Images with Deep Learning. I finished my Undergrad from  **PSG TECH**. Broadly curious in applying deep learning models for real-time application. The current projects I am is working is related to **Medical Image Analysis using Deep Learning**, **NeuroScience**. I am always a student, eager to learn new things in life.
 
