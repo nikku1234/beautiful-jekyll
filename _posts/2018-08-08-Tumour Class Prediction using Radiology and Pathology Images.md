@@ -5,7 +5,7 @@ subtitle: Submitted to CPM,MICCAI
 gh-repo: nikku1234/Combined-Pathology-and-Radiology
 gh-badge: [star, fork, follow]
 tags: [tumor,prediction,international-competition,pathology,radiology,deeplearning]
-image: /img/class.jpg
+image: /img/logos/class.jpg
 ---
 
 **Tumour Class Prediction using Radiology and Pathology Images** _Submitted to CPM,MICCAI_
