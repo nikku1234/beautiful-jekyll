@@ -5,7 +5,7 @@ subtitle: Design Patterns
 #gh-repo:
 #gh-badge: [star, fork, follow]
 tags: [DesignPatterns,java,software,Distributed,Systems]
-image:
+image: /img/logos/distri.png
 ---
 
 In this post we will be discussing about Distributed Systems. The five main characteristics of Distributed Systems are:

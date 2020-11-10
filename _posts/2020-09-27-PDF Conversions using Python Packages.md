@@ -5,7 +5,7 @@ subtitle: Python Conversions
 #gh-repo:
 #gh-badge: [star, fork, follow]
 tags: [python,package]
-image:
+image: /img/logos/pdf.png
 ---
 
 #### Python Packages to Convert pdf to different formats
@@ -358,4 +358,4 @@ pdf-rules <pdf path>
 
 ------
 
-#### 
+####

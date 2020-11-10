@@ -5,7 +5,7 @@ subtitle: Design Patterns
 #gh-repo:
 #gh-badge: [star, fork, follow]
 tags: [DesignPatterns,java,software]
-image:
+image: /img/logos/softdes.png
 ---
 
 This post is an Introduction post to the series of posts which I will be writing for the different software design patterns.
