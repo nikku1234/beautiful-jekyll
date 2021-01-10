@@ -26,16 +26,13 @@ image: /img/logos/python.png
 
 
 
+**Installation instructions and usage on Linux**
+
+There is no installer, you need to run some commands in the command line to download and install. pdfsizeopt is a command line only application, there is no GUI.
+
+To install pdfsizeopt on a Linux system (with architecture i386 or amd64), open a terminal window and run these commands (without the leading `$'):
+
 ```
-Installation instructions and usage on Linux
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-There is no installer, you need to run some commands in the command line to
-download and install. pdfsizeopt is a command-line only application, there
-is no GUI.
-
-To install pdfsizeopt on a Linux system (with architecture i386 or amd64),
-open a terminal window and run these commands (without the leading `$'):
-
   $ mkdir ~/pdfsizeopt
   $ cd ~/pdfsizeopt
   $ wget -O pdfsizeopt_libexec_linux.tar.gz https://github.com/pts/pdfsizeopt/releases/download/2017-01-24/pdfsizeopt_libexec_linux-v3.tar.gz
@@ -44,170 +41,144 @@ open a terminal window and run these commands (without the leading `$'):
   $ wget -O pdfsizeopt.single https://raw.githubusercontent.com/pts/pdfsizeopt/master/pdfsizeopt.single
   $ chmod +x pdfsizeopt.single
   $ ln -s pdfsizeopt.single pdfsizeopt
+```
 
 To optimize a PDF, run the following command:
 
+```
   ~/pdfsizeopt/pdfsizeopt input.pdf output.pdf
+```
 
-If the input PDF has many images or large images, pdfsizeopt can be very
-slow. You can speed it up by disabling pngout, the slowest image optimization
-method, like this:
+If the input PDF has many images or large images, pdfsizeopt can be very slow. You can speed it up by disabling pngout, the slowest image optimization method, like this:
 
+```
   ~/pdfsizeopt/pdfsizeopt --use-pngout=no input.pdf output.pdf
+```
 
-pdfsizeopt creates lots of temporary files (psotmp.*) in the output
-directory, but it also cleans up after itself.
+pdfsizeopt creates lots of temporary files (psotmp.*) in the output directory, but it also cleans up after itself.
 
-It's possible to optimize a PDF outside the current directory. To do that,
-specify the pathname (including the directory name) in the command-line.
+It's possible to optimize a PDF outside the current directory. To do that, specify the pathname (including the directory name) in the command-line.
 
-Please note that the commands above download all dependencies (including
-Python and Ghostscript) as well. It's possible to install some of the
-dependencies with your package manager, but these steps are considered
-alternative and more complicated, and thus are not covered here.
+Please note that the commands above download all dependencies (including Python and Ghostscript) as well. It's possible to install some of the dependencies with your package manager, but these steps are considered alternative and more complicated, and thus are not covered here.
 
-Please note that pdfsizeopt works perfectly on any x86 and amd64 Linux
-system. There is no restriction on the libc, Linux distribution etc. because
-pdfsizeopt uses only its statically linked x86 executables, and it doesn't
-use any external commands (other than pdfsizeopt, pdfsizeopt.single and
-pdfsizeopt_libexec/*) on the system. pdfsizeopt also works perfectly on x86
-FreeBSD systems with the Linux emulation layer enabled.
+Please note that pdfsizeopt works perfectly on any x86 and amd64 Linux system. There is no restriction on the libc, Linux distribution etc. because pdfsizeopt uses only its statically linked x86 executables, and it doesn't use any external commands (other than pdfsizeopt, pdfsizeopt.single and pdfsizeopt_libexec/*) on the system. pdfsizeopt also works perfectly on x86 FreeBSD systems with the Linux emulation layer enabled.
 
-To avoid typing ~/pdfsizeopt/pdfsizeopt, add "$HOME/pdfsizeopt" to your PATH
-(probably in your ~/.bashrc), open a new terminal window, and the
-command pdfsizeopt will work from any directory.
+To avoid typing ~/pdfsizeopt/pdfsizeopt, add "$HOME/pdfsizeopt" to your PATH (probably in your ~/.bashrc), open a new terminal window, and the command pdfsizeopt will work from any directory.
 
-You can also put pdfsizeopt to a directory other than ~/pdfsizeopt , as you
-like.
+You can also put pdfsizeopt to a directory other than ~/pdfsizeopt , as you like.
 
-Additionally, you can install some extra image imptimizers (see more in the
-``Image optimizers'' section below):
+Additionally, you can install some extra image imptimizers (see more in the``Image optimizers'' section below):
 
+```
   $ cd ~/pdfsizeopt
   $ wget -O pdfsizeopt_libexec_extraimgopt_linux-v3.tar.gz https://github.com/pts/pdfsizeopt/releases/download/2017-01-24/pdfsizeopt_libexec_extraimgopt_linux-v3.tar.gz
   $ tar xzvf pdfsizeopt_libexec_extraimgopt_linux-v3.tar.gz
   $ rm -f    pdfsizeopt_libexec_extraimgopt_linux-v3.tar.gz
+```
 
-Installation instructions and usage with Docker on Linux and macOS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-There is no installer, you need to run some commands in the command line to
-download and install. pdfsizeopt is a command-line only application, there
-is no GUI.
+**Installation instructions and usage with Docker on Linux and macOS**
+
+There is no installer, you need to run some commands in the command line to download and install. pdfsizeopt is a command-line only application, there is no GUI.
 
 To optimize a PDF, install Docker, and then run this command:
 
+```
   docker run -v "$PWD:/workdir" -u "$(id -u):$(id -g)" --rm -it ptspts/pdfsizeopt pdfsizeopt input.pdf output.pdf
+```
 
-If the input PDF has many images or large images, pdfsizeopt can be very
-slow. You can speed it up by disabling pngout, the slowest image optimization
-method, like this:
+If the input PDF has many images or large images, pdfsizeopt can be very slow. You can speed it up by disabling pngout, the slowest image optimization method, like this:
 
+```
   docker run -v "$PWD:/workdir" -u "$(id -u):$(id -g)" --rm -it ptspts/pdfsizeopt pdfsizeopt --use-pngout=no input.pdf output.pdf
+```
 
-pdfsizeopt creates lots of temporary files (psotmp.*) in the output
-directory, but it also cleans up after itself.
+pdfsizeopt creates lots of temporary files (psotmp.*) in the output directory, but it also cleans up after itself.
 
-It's possible to optimize a PDF outside the current directory. To do that,
-specify the pathname (including the directory name) in the command-line.
+It's possible to optimize a PDF outside the current directory. To do that, specify the pathname (including the directory name) in the command-line.
 
 To avoid typing a long command, run
 
-  (echo '#! /bin/sh'; echo 'exec docker run -v "$PWD:/workdir" -u "$(id -u):$(id -g)" --rm -it ptspts/pdfsizeopt pdfsizeopt "$@"') >pdfsizeopt && chmod 755 pdfsizeopt
+```
+(echo '#! /bin/sh'; echo 'exec docker run -v "$PWD:/workdir" -u "$(id -u):$(id -g)" --rm -it ptspts/pdfsizeopt pdfsizeopt "$@"') >pdfsizeopt && chmod 755 pdfsizeopt
+```
 
 , and then copy the pdfsizeopt script to your PATH, then open a new terminal
 window, and now this command will also work to optimize a PDF:
 
+```
   pdfsizeopt input.pdf output.pdf
+```
 
-Please note that the ptspts/pdfsizeopt Docker image is updated very rarely.
-To use a more up-to-date version, run these commands to download (without
-the leading `$'):
+Please note that the ptspts/pdfsizeopt Docker image is updated very rarely. To use a more up-to-date version, run these commands to download (without the leading `$'):
 
+```
   wget -O pdfsizeopt.single https://raw.githubusercontent.com/pts/pdfsizeopt/master/pdfsizeopt.single
   chmod +x pdfsizeopt.single
+```
 
-Then run this command to optimize a PDF:
+Then run this command to optimize a PDF: 
 
-  docker run -v "$PWD:/workdir" -u "$(id -u):$(id -g)" --rm -it ptspts/pdfsizeopt ./pdfsizeopt.single --use-pngout=no input.pdf output.pdf
+```
+ docker run -v "$PWD:/workdir" -u "$(id -u):$(id -g)" --rm -it ptspts/pdfsizeopt ./pdfsizeopt.single --use-pngout=no input.pdf output.pdf
+```
 
-If you want to have extra image optimizers included, use
-ptspts/pdfsizeopt-with-extraimgopt instead of ptspts/pdfsizeopt in the
+If you want to have extra image optimizers included, use ptspts/pdfsizeopt-with-extraimgopt instead of ptspts/pdfsizeopt in the
 commands above. Example:
 
-  docker run -v "$PWD:/workdir" -u "$(id -u):$(id -g)" --rm -it ptspts/pdfsizeopt-with-extraimgopt pdfsizeopt --use-image-optimizer=sam2p,jbig2,pngout,zopflipng,optipng,advpng,ECT input.pdf output.pdf
+  
 
-Installation instructions and usage on Windows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-There is no installer, you need to run some commands in the command line
-(black Command Prompt window) to download and install. pdfsizeopt is a
-command-line only application, there is no GUI.
+```
+docker run -v "$PWD:/workdir" -u "$(id -u):$(id -g)" --rm -it ptspts/pdfsizeopt-with-extraimgopt pdfsizeopt --use-image-optimizer=sam2p,jbig2,pngout,zopflipng,optipng,advpng,ECT input.pdf output.pdf
+```
+
+**Installation instructions and usage on Windows**
+
+There is no installer, you need to run some commands in the command line (black Command Prompt window) to download and install. pdfsizeopt is a command-line only application, there is no GUI.
 
 Create folder C:\pdfsizeopt, download
 https://github.com/pts/pdfsizeopt/releases/download/2017-09-02w/pdfsizeopt_win32exec-v6.zip
-, and extract its contents to the folder C:\pdfsizeopt, so that the file
-C:\pdfsizeopt\pdfsizeopt.exe exists.
+, and extract its contents to the folder C:\pdfsizeopt, so that the file C:\pdfsizeopt\pdfsizeopt.exe exists.
 
 Download
-https://raw.githubusercontent.com/pts/pdfsizeopt/master/pdfsizeopt.single
-and save it to C:\pdfsizeopt, as C:\pdfsizeopt\pdfsizeopt.single .
+https://raw.githubusercontent.com/pts/pdfsizeopt/master/pdfsizeopt.single and save it to C:\pdfsizeopt, as C:\pdfsizeopt\pdfsizeopt.single .
 
 To optimize a PDF, run the following command:
 
   C:\pdfsizeopt\pdfsizeopt input.pdf output.pdf
 
-in the command line, which is a black Command Prompt window, you can start
-it by Start menu / Run / cmd.exe, or finding Command Prompt in the start
-menu.
+in the command line, which is a black Command Prompt window, you can start it by Start menu / Run / cmd.exe, or finding Command Prompt in the start menu.
 
 (Press Tab to get filename completion while typing.)
 
-Since you have to type the input filename as a full pathname, it's
-recommended to create a directory with a short name (e.g. C:\pdfs), and copy
-the input PDF there first.
+Since you have to type the input filename as a full pathname, it's recommended to create a directory with a short name (e.g. C:\pdfs), and copy the input PDF there first.
 
-If the input PDF has many images or large images, pdfsizeopt can be very
-slow. You can speed it up by disabling pngout, the slowest image optimization
-method, like this:
+If the input PDF has many images or large images, pdfsizeopt can be very slow. You can speed it up by disabling pngout, the slowest image optimization method, like this:
 
   C:\pdfsizeopt\pdfsizeopt --use-pngout=no input.pdf output.pdf
 
-To avoid typing C:\pdfsizeopt\pdfsizeopt, add C:\pdfsizeopt to (the end of)
-the system PATH, open a new Command Prompt window, and the command
-`pdfsizeopt' will work from any directory.
+To avoid typing C:\pdfsizeopt\pdfsizeopt, add C:\pdfsizeopt to (the end of) the system PATH, open a new Command Prompt window, and the command `pdfsizeopt' will work from any directory.
 
-Depending on your environment, filenames with
-accented characters may not work in the Windows version of pdfsizeopt. To
-play it safe, make sure your input and output files have names with letters,
-numbers, underscore (_), dash (-), dot (.) and plus (+). The backslash (\)
-and the slash (/) are both OK as the directory separator.
+Depending on your environment, filenames with accented characters may not work in the Windows version of pdfsizeopt. To
+play it safe, make sure your input and output files have names with letters, numbers, underscore (_), dash (-), dot (.) and plus (+). The backslash (\) and the slash (/) are both OK as the directory separator.
 
-Spaces in filenames and pathnames should work, but you need to put double
-quotes (") around the name.
+Spaces in filenames and pathnames should work, but you need to put double quotes (") around the name.
 
-Filenames with some punctuation characters (such as double quote ("),
-question mark (?) and asterisk (*)) and nonprintable characters (such as
-newline) will not work on Windows. This is because Windows doesn't support
-these characters ([\x00..\x1f\"*:<>?|\x7f] in filenames at all, and it uses
-/ and \\ as directory separator.
+Filenames with some punctuation characters (such as double quote ("), question mark (?) and asterisk (*)) and nonprintable characters (such as newline) will not work on Windows. This is because Windows doesn't support these characters ([\x00..\x1f\"*:<> |\x7f] in filenames at all, and it uses / and \\ as directory separator.
 
-You can also put pdfsizeopt to a directory other than C:\pdfsizeopt , but it
-won't work if there is whitespace or there are accented characters in any of
-the folder names.
+You can also put pdfsizeopt to a directory other than C:\pdfsizeopt , but it won't work if there is whitespace or there are accented characters in any of the folder names.
 
-Please note that pdfsizeopt works perfectly in Wine (tested with wine-1.2 on
-Ubuntu Lucid and wine-1.6.2 on Ubuntu Trusty), but it's a bit slower than
-running it natively (as a Linux or Unix program).
+Please note that pdfsizeopt works perfectly in Wine (tested with wine-1.2 on Ubuntu Lucid and wine-1.6.2 on Ubuntu Trusty), but it's a bit slower than running it natively (as a Linux or Unix program).
 
-Installation instructions and usage on macOS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-There is no installer, you need to run some commands in the command line to
-download and install. pdfsizeopt is a command-line only application, there
-is no GUI.
+**Installation instructions and usage on macOS**
 
-To install pdfsizeopt on a macOS system (with architecture i386 or amd64),
-open a terminal window and run these commands (without the leading `$'):
+There is no installer, you need to run some commands in the command line to download and install. pdfsizeopt is a command-line only application, there is no GUI.
 
-  $ mkdir ~/pdfsizeopt
+To install pdfsizeopt on a macOS system (with architecture i386 or amd64), open a terminal window and run these commands (without the leading `$'):
+
+ 
+
+```
+ $ mkdir ~/pdfsizeopt
   $ cd ~/pdfsizeopt
   $ curl -L -o pdfsizeopt_libexec_darwin.tar.gz https://github.com/pts/pdfsizeopt/releases/download/2017-09-03d/pdfsizeopt_libexec_darwin-v1.tar.gz
   $ tar xzvf pdfsizeopt_libexec_darwin.tar.gz
@@ -215,48 +186,40 @@ open a terminal window and run these commands (without the leading `$'):
   $ curl -L -o pdfsizeopt.single https://raw.githubusercontent.com/pts/pdfsizeopt/master/pdfsizeopt.single
   $ chmod +x pdfsizeopt.single
   $ ln -s pdfsizeopt.single pdfsizeopt
+```
 
 Do a test optimization run, which exercises all dependencies of pdfsizeopt:
 
+```
   $ curl -L -o deptest.pdf https://github.com/pts/pdfsizeopt/raw/master/deptest/deptest.pdf
   $ ~/pdfsizeopt/pdfsizeopt deptest.pdf
+```
 
-... and open (view) deptest.pdf and the corresponding optimized
-deptest.pso.pdf .
+... and open (view) deptest.pdf and the corresponding optimized deptest.pso.pdf .
 
 To optimize a PDF, run the following command:
 
-  ~/pdfsizeopt/pdfsizeopt input.pdf output.pdf
-
-If the input PDF has many images or large images, pdfsizeopt can be very
-slow. You can speed it up by disabling pngout, the slowest image optimization
-method, like this:
-
-  ~/pdfsizeopt/pdfsizeopt --use-pngout=no input.pdf output.pdf
-
-Also, if you have an 32-bit Mac, then the pngout bundled with pdfsizeopt
-won't work (because it needs a 64-bit Mac), so you have to force
---use-pngout=no . See the section ``Image optimizers'' for alternatives of
-pngout.
-
-pdfsizeopt creates lots of temporary files (psotmp.*) in the output
-directory, but it also cleans up after itself.
-
-It's possible to optimize a PDF outside the current directory. To do that,
-specify the pathname (including the directory name) in the command-line.
-
-Please note that the commands above download most dependencies (including
-Ghostscript, but excluding Python) as well. Everything should work as
-instructed above, out of the box. If you are experiencing problems, please
-report an issue on https://github.com/pts/pdfsizeopt/issues .
-
-To avoid typing ~/pdfsizeopt/pdfsizeopt, add "$HOME/pdfsizeopt" to your PATH
-(probably in your ~/.bashrc), open a new terminal window, and the
-command pdfsizeopt will work from any directory.
-
-You can also put pdfsizeopt to a directory other than ~/pdfsizeopt , as you
-like.
 ```
+  ~/pdfsizeopt/pdfsizeopt input.pdf output.pdf
+```
+
+If the input PDF has many images or large images, pdfsizeopt can be very slow. You can speed it up by disabling pngout, the slowest image optimization method, like this:
+
+```
+  ~/pdfsizeopt/pdfsizeopt --use-pngout=no input.pdf output.pdf
+```
+
+Also, if you have an 32-bit Mac, then the pngout bundled with pdfsizeopt won't work (because it needs a 64-bit Mac), so you have to force --use-pngout=no . See the section ``Image optimizers'' for alternatives of pngout.
+
+pdfsizeopt creates lots of temporary files (psotmp.*) in the output directory, but it also cleans up after itself.
+
+It's possible to optimize a PDF outside the current directory. To do that, specify the pathname (including the directory name) in the command-line.
+
+Please note that the commands above download most dependencies (including Ghostscript, but excluding Python) as well. Everything should work as instructed above, out of the box. If you are experiencing problems, please report an issue on https://github.com/pts/pdfsizeopt/issues .
+
+To avoid typing ~/pdfsizeopt/pdfsizeopt, add "$HOME/pdfsizeopt" to your PATH (probably in your ~/.bashrc), open a new terminal window, and the command pdfsizeopt will work from any directory.
+
+You can also put pdfsizeopt to a directory other than ~/pdfsizeopt , as you like.
 
 
 
@@ -345,11 +308,9 @@ Further Developing notes:
 
 # 4. pikepdf
 
+### Installation
 
-
-# Installation
-
-## Basic installation
+### Basic installation
 
 Most users on Linux, macOS or Windows with x64 systems should use `pip` to install pikepdf in their current Python environment (such as your project’s virtual environment).
 
