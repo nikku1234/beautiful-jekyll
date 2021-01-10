@@ -125,8 +125,6 @@ Then run this command to optimize a PDF:
 If you want to have extra image optimizers included, use ptspts/pdfsizeopt-with-extraimgopt instead of ptspts/pdfsizeopt in the
 commands above. Example:
 
-  
-
 ```
 docker run -v "$PWD:/workdir" -u "$(id -u):$(id -g)" --rm -it ptspts/pdfsizeopt-with-extraimgopt pdfsizeopt --use-image-optimizer=sam2p,jbig2,pngout,zopflipng,optipng,advpng,ECT input.pdf output.pdf
 ```
