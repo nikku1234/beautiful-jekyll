@@ -8,9 +8,7 @@ image: /img/logos/python.png
 
 ---
 
-
-
-# Compressing PDF Using Python Packages
+## Compressing PDF Using Python Packages
 
 - #### [pdfsizeopt](https://github.com/pts/pdfsizeopt)
 
@@ -22,9 +20,7 @@ image: /img/logos/python.png
 
 
 
-# 1. pdfsizeopt
-
-
+## 1. pdfsizeopt
 
 **Installation instructions and usage on Linux**
 
@@ -75,6 +71,8 @@ Additionally, you can install some extra image imptimizers (see more in the``Ima
   $ tar xzvf pdfsizeopt_libexec_extraimgopt_linux-v3.tar.gz
   $ rm -f    pdfsizeopt_libexec_extraimgopt_linux-v3.tar.gz
 ```
+
+
 
 **Installation instructions and usage with Docker on Linux and macOS**
 
@@ -173,8 +171,6 @@ There is no installer, you need to run some commands in the command line to down
 
 To install pdfsizeopt on a macOS system (with architecture i386 or amd64), open a terminal window and run these commands (without the leading `$'):
 
- 
-
 ```
  $ mkdir ~/pdfsizeopt
   $ cd ~/pdfsizeopt
@@ -221,17 +217,17 @@ You can also put pdfsizeopt to a directory other than ~/pdfsizeopt , as you like
 
 
 
-# 2. Pdfc -- PDF Compressor
+## 2. Pdfc -- PDF Compressor
 
 Simple python script to compress PDF.
 
-## Installation
+### Installation
 
 - Install dependency Ghostscript. On MacOSX: `brew install ghostscript` On Windows: install binaries via [official website] (https://www.ghostscript.com/)
 - Create a symbolic link if you want to run it everywhere in bash `ln -s pdf_creator.py pdfc`
 - Add in PATH environment variable On MacOSX: `echo export=/absolute/path/of/the/folder/script/:$PATH >> ~/.bash_profile`
 
-## Usage
+### Usage
 
 ```
 pdfc [-o output_file_path] [-c number] input_file_path
@@ -248,7 +244,7 @@ Final file size is 1.4MB
 Done.
 ```
 
-## Options
+### Options
 
 - ```
   -c 
@@ -276,7 +272,7 @@ Done.
 
 
 
-# 3. pdf-compressor
+## 3. pdf-compressor
 
 Compress PDF files with GUI (Ubuntu Linux)
 
@@ -304,11 +300,11 @@ Further Developing notes:
 
 
 
-# 4. pikepdf
+## 4. pikepdf
 
 ### Installation
 
-### Basic installation
+#### Basic installation
 
 Most users on Linux, macOS or Windows with x64 systems should use `pip` to install pikepdf in their current Python environment (such as your project’s virtual environment).
 
@@ -330,15 +326,13 @@ pip install pikepdf
 
 Currently we do not build wheels for architectures other than x86 and x64.
 
-
-
-### Debian, Ubuntu and other APT-based distributions
+#### Debian, Ubuntu and other APT-based distributions
 
 ```
 apt install pikepdf
 ```
 
-### Fedora
+#### Fedora
 
 ![Fedora Rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/python:pikepdf.svg)
 
@@ -346,7 +340,7 @@ apt install pikepdf
 dnf install python-pikepdf
 ```
 
-### Alpine Linux
+#### Alpine Linux
 
 ![Alpine Linux Edge](https://repology.org/badge/version-for-repo/alpine_edge/python:pikepdf.svg)
 
@@ -354,7 +348,7 @@ dnf install python-pikepdf
 apk add py3-pikepdf
 ```
 
-## Installing on FreeBSD
+#### Installing on FreeBSD
 
 ```
 pkg install py37-pikepdf
@@ -369,9 +363,9 @@ pip install --user pikepdf
 
 This procedure is known to work on FreeBSD 11.3, 12.0, 12.1-RELEASE and 13.0-CURRENT. It has not been tested on other versions.
 
-## Building from source
+#### Building from source
 
-**Requirements**
+#### **Requirements**
 
 pikepdf requires:
 
@@ -442,7 +436,7 @@ From a Git checkout of the pikepdf source tree, run:
 env LDFLAGS='-L/usr/local/lib' CFLAGS='-I/usr/local/include/qpdf' pip install .
 ```
 
-## Building the documentation
+#### Building the documentation
 
 Documentation is generated using Sphinx and you are currently reading it. To regenerate it:
 
