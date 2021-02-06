@@ -22,7 +22,7 @@ image: /img/perspective/presp.jpg
 
 ​	You will be bombarded with assignments and projects for all the courses you have enrolled, so make sure you spend every day on the courses, otherwise, you will end up missing deadlines. Each course roughly takes around 10 hours of study time. And academic integrity is an important part. You have to submit your work, no other go. and anyway what's the point of submitting someone else's work?
 
-### **Time Managemen**
+### **Time Management**
 
 ​	Time management is one of the most important thing, which goes without saying. If you haven't planned out things, you will mess things up. If you have taken extra work, then its more important, to manage everything. Like if you are working on research alongside, you will not have much time to play around.
 
