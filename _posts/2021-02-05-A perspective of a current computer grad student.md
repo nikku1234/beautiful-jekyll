@@ -40,7 +40,7 @@ image: /img/perspective/presp.jpg
 
 ### Relationships
 
-​	Talk to your loved ones and let them know what you are going through. I have seen my roommates suffering to maintain the relationship as the communication between the people was not clear. If you are not in a relationship, talk to your family and friends, like many computer science people(including me :satisfied:)​. Just make sure to give them a call once a day, even though how hectic your schedule is. 
+​	Talk to your loved ones and let them know what you are going through. I have seen my roommates suffering to maintain the relationship as the communication between the people was not clear. If you are not in a relationship, talk to your family and friends, like many computer science people(including me ​xD​)​. Just make sure to give them a call once a day, even though how hectic your schedule is. 
 
 
 
