@@ -22,13 +22,25 @@ image: /img/perspective/presp.jpg
 
 ​	You will be bombarded with assignments and projects for all the courses you have enrolled, so make sure you spend every day on the courses, otherwise, you will end up missing deadlines. Each course roughly takes around 10 hours of study time. And academic integrity is an important part. You have to submit your work, no other go. and anyway what's the point of submitting someone else's work?
 
-### **Time Management**
+### **Time Management** Soft Skills
 
-​	Time management is one of the most important thing, which goes without saying. If you haven't planned out things, you will mess things up. If you have taken extra work, then its more important, to manage everything. Like if you are working on research alongside, you will not have much time to play around.
+​	Time management is one of the most important thing, which goes without saying. If you haven't planned out things, you will mess things up. If you have taken extra work, then its more important, to manage everything. Like if you are working on research alongside, you will not have much time to play around. ***Update***: You will have a-lot of assignments. If you have taken like 5 courses and a research, time won't be enough for you. So plan ahead for the assignments and don't take it for the last minute. Completing assignments will take time.
 
 ### *Learn*
 
 ​	It doesn't matter whether you have received a scholarship for your grad studies or if you have taken a education loan to do your graduate studies. Make sure you learn new stuff every day. It helps in the long run.
+
+### Soft Skills
+
+​	Improve your communication skills, as you will be connecting with many people from different backgrounds.
+
+### Concepts clear
+
+​	Make sure that you are clear with concepts, otherwise you won't be able to complete the assignments.
+
+### Relationships
+
+​	Talk to your loved ones and let them know what you are going through. I have seen my roommates suffering to maintain the relationship as the communication between the people was not clear. If you are not in a relationship, talk to your family and friends, like many computer science people(including me :satisfied:)​. Just make sure to give them a call once a day, even though how hectic your schedule is. 
 
 
 
