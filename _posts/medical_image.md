@@ -11,5 +11,5 @@ image:
 
 ### **Introduction**
 
-​	This post is just about medical image registration and the correct state of the art architectures used for medical image registration.
+​	This post is just about medical image registration and the state of the art architectures used for medical image registration.
 
